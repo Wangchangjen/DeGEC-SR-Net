@@ -5,7 +5,7 @@
 # Parameter description for "deGEC_SR_net_v2.1.py":
 Training code divided into 6 cells
  - 1-th cell: Import functions (python, tensorflow, ...)
- - 2-th cell: Parameters setting
+ - 2-th cell: Parameters setting\\
    123456
  - 3-th cell:
  - 4-th cell:
