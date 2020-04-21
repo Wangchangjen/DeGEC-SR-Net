@@ -7,11 +7,11 @@
 
 For phase retrieval, GEC-SR is good performance and deGEC-SR is good efficient algorithm. For details, please refer to 
 
-C. J. Wang, C. K. Wen, S. H. Tsai, and S. Jin, ```diff + Decentralized Expectation Consistent Signal Recovery for Phase Retrieval ```, IEEE Transactions on Signal Processing, vol. 68, pp. 1484-1499, 2020.
+C. J. Wang, C. K. Wen, S. H. Tsai, and S. Jin, "Decentralized Expectation Consistent Signal Recovery for Phase Retrieval", IEEE Transactions on Signal Processing, vol. 68, pp. 1484-1499, 2020.
 
 However, the convergence iteration of GEC-SR and deGEC-SR are many. To reduce iteration number largely, we proposed deGEC-SR-Net to update the damp parameters, please refer to
 
-C. J. Wang, C. K. Wen, S. H. Tsai, and S. Jin, Phase Retrieval with Learning Unfolded Expectation Consistent Signal Recovery Algorithm, IEEE Signal Process. Letters, 2020, to appear.
+C. J. Wang, C. K. Wen, S. H. Tsai, and S. Jin, "Phase Retrieval with Learning Unfolded Expectation Consistent Signal Recovery Algorithm", IEEE Signal Process. Letters, 2020, to appear.
 
 We provide the traing codes that you can apply "deGEC-SR-Net" in the  phase retreival problem of different training environment.
 
@@ -26,6 +26,5 @@ We provide the traing codes that you can apply "deGEC-SR-Net" in the  phase retr
 
   You can select GEC-SR or deGEC-SR based on group_C. "group_C = 1" is GEC-SR. "group_C > 1" is deGEC-SR.
   
-- Step 4. Now, you are ready to run the training code:
- deGEC_SR_net_v2.1.py
+- Step 4. Now, you are ready to run the training code: deGEC_SR_net_v2.1.py
  
