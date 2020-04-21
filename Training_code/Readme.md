@@ -5,6 +5,7 @@
 # Parameter description for "deGEC_SR_net_v2.1.py":
 Training code divided into 6 cells
 - 1-th cell: Import functions (python, tensorflow, ...)
+
 - 2-th cell: Parameters setting
   N: The dimension of transmitted X.
  
@@ -26,7 +27,24 @@ Training code divided into 6 cells
  
   weight_mat: Path for storing parameters.
  
-- 3-th cell:
-- 4-th cell:
+- 3-th cell: Define functions
+  Variable: Define initial learned damping value.
+  
+  abq_y: Define the observed function: y = |z + w|.
+  
+  generate_data_iid_test: Generate training data.
+  
+  mean_var: Average variance of posterior estimation.
+  
+  complex_conj_mul_real: Run Conjugate complex multiplication based on real numbers.
+  
+  disambig1Drfft: Disambig global phase rotation.
+  
+  Damp_linear: Define the range of the damp function.
+  
+- 4-th cell: Define Modules (A, Bx, Bz, C) and Ext
+  abs_estimation
+  
 - 5-th cell:
+
 - 6-th cell:
