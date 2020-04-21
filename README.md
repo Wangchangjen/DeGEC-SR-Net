@@ -25,9 +25,9 @@ We provide the traing codes that you can apply "deGEC-SR-Net" in the  phase retr
 - Step 3. In deGEC_SR_net_v2.1.py, find the line 32  
 
   You can select GEC-SR or deGEC-SR based on group_C. 
-  - "group_C = 1" is GEC-SR. 
+  - "group_C = 1" is GEC-SR-Net. 
   
-  - "group_C > 1" is deGEC-SR.
+  - "group_C > 1" is deGEC-SR-Net.
   
 - Step 4. Now, you are ready to run the training code: deGEC_SR_net_v2.1.py
  
