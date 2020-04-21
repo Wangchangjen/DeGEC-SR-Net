@@ -7,7 +7,7 @@
 
 For phase retrieval, GEC-SR is good performance and deGEC-SR is good efficient algorithm. For details, please refer to 
 
-C. J. Wang, C. K. Wen, S. H. Tsai, and S. Jin, Decentralized Expectation Consistent Signal Recovery for Phase Retrieval, IEEE Transactions on Signal Processing, vol. 68, pp. 1484-1499, 2020.
+C. J. Wang, C. K. Wen, S. H. Tsai, and S. Jin, ```diff + Decentralized Expectation Consistent Signal Recovery for Phase Retrieval```, IEEE Transactions on Signal Processing, vol. 68, pp. 1484-1499, 2020.
 
 However, the convergence iteration of GEC-SR and deGEC-SR are many. To reduce iteration number largely, we proposed deGEC-SR-Net to update the damp parameters, please refer to
 
