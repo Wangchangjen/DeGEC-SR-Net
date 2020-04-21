@@ -4,29 +4,29 @@
 --------------------------------------------------------------------------------------------------------------------------
 # Parameter description for "deGEC_SR_net_v2.1.py":
 Training code divided into 6 cells
- > - 1-th cell: Import functions (python, tensorflow, ...)
- > - 2-th cell: Parameters setting
- >> N: The dimension of transmitted X.
+- 1-th cell: Import functions (python, tensorflow, ...)
+- 2-th cell: Parameters setting
+N: The dimension of transmitted X.
  
- >> M: The dimension of measurement Y.
+M: The dimension of measurement Y.
  
- >> snrdb_train: SNR set (dB).
+snrdb_train: SNR set (dB).
  
- >> train_size: The number of training samples (Each epoch)
+train_size: The number of training samples (Each epoch)
  
- >> epochs: The number of epochs. For each epoch, the training samples are different.
+epochs: The number of epochs. For each epoch, the training samples are different.
  
- >> batch_size: The number of batch size.
+batch_size: The number of batch size.
  
- >> itermax: The number of iteration.
+itermax: The number of iteration.
  
- >> group_C: Degree of dispersion (group_C = 1 => GEC-SR-Net, group_C > 1 => deGEC-SR-Net).
+group_C: Degree of dispersion (group_C = 1 => GEC-SR-Net, group_C > 1 => deGEC-SR-Net).
  
- >> train_repeat_size:  The number of update parameter times in the same data samples.
+train_repeat_size:  The number of update parameter times in the same data samples.
  
- >> weight_mat: Path for storing parameters.
+weight_mat: Path for storing parameters.
  
- > - 3-th cell:
- > - 4-th cell:
- > - 5-th cell:
- > - 6-th cell:
+- 3-th cell:
+- 4-th cell:
+- 5-th cell:
+- 6-th cell:
